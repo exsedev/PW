@@ -1,0 +1,297 @@
+
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background-color: #202040;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 10px 10%;
+    background-color: rgb(5, 216, 216);
+}
+
+.Kel-G{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.nav-link{
+    list-style: none;
+    margin-right: 290px;
+}
+
+.nav-link li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.Kel-link{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.Kel-link:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid #202040;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* header mulai */
+.container{
+    padding: 3rem 10rem;
+}
+
+
+.main-content{
+    display: flex;
+}
+
+.text{
+    padding-top: 12rem;
+}
+
+.banner{
+    margin-top: -250px;
+    margin-left: -50px;
+    float: right;
+}
+
+.text h1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: 500 !important;
+}
+
+.deskripsi1{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 10px 10%;
+    background-color: #1c5a84;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.btn:hover{
+    background-color: #bbe1fa;
+    color: #202040;
+    transition: 0.5s;
+}
+
+/* halaman content */
+
+
+/* content start  */
+.rectangle {
+    height: 300px;
+    width: 500px;
+    background: url("/asset/img/gamer.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 850px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.title {
+    margin-top: 695px;
+    margin-left: 700px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 35px;
+    position: absolute;
+    z-index: -1;
+  }
+  
+.text span {
+    font-weight: bold;
+}
+  
+.deskripsi2 {
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+}
+  
+.btn-join {
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 15px !important;
+}
+
+/* Team Penyusun Mulai  */
+.quotes h3 {
+    margin-top: 100px;
+    margin-left: 410px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 35px;
+    font-weight: 500 !important;
+    position: absolute;
+    z-index: -1;
+    font-style: italic;
+}
+
+.anggota1 {
+    margin-top: 250px;
+    margin-left: 525px;
+    height: 150px;
+    width: 150px;
+    background-image: url("/asset/img/quotes1.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+  }
+.name-title {
+    margin-top: 410px;
+    margin-left: 525px;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    z-index: -1;
+}
+  
+.nim {
+    margin-left: 7px;
+    font-size: 17px;
+    font-style: italic;
+    color: #bcb6b6;
+    position: absolute;
+    z-index: -1;
+}
+
+.tugas {
+    margin-top: 20px;
+    margin-left: 7px;
+    font-size: 15px;
+    font-style: italic;
+    color: #bcb6b6;
+    position: absolute;
+    z-index: -1;
+}
+
+.anggota2 {
+    margin-top: 100px;
+    margin-left: 405px;
+    height: 150px;
+    width: 150px;
+    background-image: url("/asset/img/quotes2.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+.name-title2 {
+    margin-top: 250px;
+    margin-left: 425px;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    z-index: -1;
+}
+.nim2 {
+    margin-left: 7px;
+    font-size: 17px;
+    font-style: italic;
+    color: #bcb6b6;
+    position: absolute;
+    z-index: -1;
+}
+
+.tugas2 {
+    margin-top: 20px;
+    margin-left: 7px;
+    font-size: 15px;
+    font-style: italic;
+    color: #bcb6b6;
+    position: absolute;
+    z-index: -1;
+}
+.anggota3 {
+    margin-top: -220px;
+    margin-left : -650px;
+    height: 150px;
+    width: 150px;
+    background-image: url("/asset/img/quotes3.png");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+.name-title3 {
+    margin-top: -50px;
+    margin-left: -600px;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    z-index: -1;
+}
+.nim3 {
+    margin-left: 7px;
+    font-size: 17px;
+    font-style: italic;
+    color: #bcb6b6;
+    position: absolute;
+    z-index: -1;
+}
+
+.tugas3 {
+    margin-top: 20px;
+    margin-left: 7px;
+    font-size: 15px;
+    font-style: italic;
+    color: #bcb6b6;
+    position: absolute;
+    z-index: -1;
+}
+
+
+  /* footer start  */
+.footer {
+    font-family: "Quicksand", sans-serif;
+    color: #bcb6b6;
+    margin-top: 750px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    position: absolute;
+    z-index: -1;
+  }
+
+.banners{
+    margin-top: -250px;
+    margin-left: -50px;
+    float: right;
+}
